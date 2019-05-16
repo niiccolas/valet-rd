@@ -1,4 +1,6 @@
-/* HIGHLIGHT ACTIVE MENU ITEM */
+/*
+HIGHLIGHT ACTIVE MENU ITEM
+*/
 #menu li:nth-child(1) {
   border-bottom: 9px solid gold;
 }
@@ -43,4 +45,12 @@
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+}
+
+.en-tete {
+  font-size: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 200;
+  margin-bottom: 40px;
 }
