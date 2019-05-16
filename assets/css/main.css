@@ -58,7 +58,6 @@ p {
   height: 100vh;
   float: left;
   padding: 0 40px;
-  /* margin: 250px; */
 }
 
 #point-tech h2 {
@@ -71,6 +70,11 @@ p {
   padding-bottom: 50px;
   font-variant: small-caps;
   text-align: center;
+}
+
+#point-tech li {
+  margin: 30px 45px 30px 45px;
+  text-align: justify;
 }
 
 /* RIGHT COLUMN ("L'ÉQUIPE") */
