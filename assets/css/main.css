@@ -46,9 +46,11 @@ p {
 
 #logo {
   float: left;
-  width: 200px;
-  padding: 25px;
+  width: 390px;
+  padding: 12px 25px 25px 35px;
 }
+
+
 
 /* LEFT COLUMN ("POINT TECH") */
 #point-tech {
@@ -59,7 +61,13 @@ p {
   /* margin: 250px; */
 }
 
-#point-tech h2, #equipe h2 {
+#point-tech h2 {
+  padding-bottom: 50px;
+  font-variant: small-caps;
+  text-align: left;
+}
+
+#equipe h2 {
   padding-bottom: 50px;
   font-variant: small-caps;
   text-align: center;
