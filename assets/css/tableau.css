@@ -1,3 +1,8 @@
+/* HIGHLIGHT ACTIVE MENU ITEM */
+#menu li:nth-child(2) {
+  border-bottom: 9px solid gold;
+}
+
 table {
   line-height: 1.5rem;
   margin: 15px;
