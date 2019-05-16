@@ -1,35 +1,13 @@
-/*
-TABLE MAIN SETTINGS
-*/
 table {
   line-height: 1.5rem;
   margin: 15px;
   border-collapse: collapse;
   margin: 0 auto;
-}
-
-td {
-  padding: 0 10px;
-}
-
-.row-border {
-  border-bottom: 1px solid rgb(163, 163, 163);
-  width: 300px;
+  width: 70%;
 }
 
 tr:hover {
   cursor: pointer;
-}
-
-/*
-CAR IMAGES
-*/
-table img {
-  border-radius: 100%;
-  width: 50px;
-  transition: .5s all;
-  margin: 10px 40px 10px 40px;
-  opacity: 0;
 }
 
 tr:hover img {
@@ -38,9 +16,32 @@ tr:hover img {
   opacity: 1;
 }
 
-tr:hover {
+tr:hover .car-owner {
   font-weight: 900;
 }
+
+td {
+  padding: 0 10px;
+}
+
+.row-horizontal-separator {
+  border-bottom: 1px solid rgb(163, 163, 163);
+  width: 300px;
+}
+
+
+/*
+CAR IMAGES
+*/
+table img {
+  border-radius: 50%;
+  width: 50px;
+  transition: .5s opacity, .5s transform;
+  margin: 10px 40px 10px 40px;
+  opacity: 0;
+}
+
+
 
 /*
 TABLE HEADER
@@ -57,7 +58,8 @@ thead {
   left: 250px;
 }
 
-#clear { /* CUSTOMIZE HEADER */
+/* CUSTOMIZE HEADER */
+#clear {
   border-top: 0px;
   background-color: #fff;
 }
