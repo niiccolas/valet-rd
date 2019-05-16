@@ -1,3 +1,10 @@
+/*
+HIGHLIGHT ACTIVE MENU ITEM
+*/
+#menu li:nth-child(3) {
+  border-bottom: 9px solid gold;
+}
+
 form {
   font-variant: small-caps;
 }
