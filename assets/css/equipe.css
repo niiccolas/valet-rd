@@ -1,3 +1,8 @@
+/* HIGHLIGHT ACTIVE MENU ITEM */
+#menu li:nth-child(1) {
+  border-bottom: 9px solid gold;
+}
+
 #profils-equipe {
   position: absolute;
   left: 30vw;
